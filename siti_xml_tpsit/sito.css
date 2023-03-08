@@ -1,0 +1,31 @@
+*{
+    background-color: #000000;
+}
+
+nome{
+    display: block;
+    width: 760 px;
+    text-align: center;
+    background: rgb(230, 0, 255);
+    color: black;
+    font-family: Comfortaa, Monogamma;
+    font-size: 140%;
+}
+
+URL{
+    display: block;
+    text-align: center;
+    color:  white;
+    font-family: Comfortaa, Monogamma;
+    font-style: italic;
+    font-size: 120%;
+}
+
+categoria{
+    display: block;
+    text-align: left;
+    color:  rgb(230, 0, 255);
+    font-family: Comfortaa, Monogamma;
+    font-style: italic;
+    font-size: 140%
+}

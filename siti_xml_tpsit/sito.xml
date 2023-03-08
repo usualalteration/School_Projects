@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="sito.css" ?>
+<lista xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="sito.dtd">
+<!--<!DOCTYPE lista SYSTEM "sito.dtd">-->
+<sito IDSito="s001">
+    <nome>Repubblica</nome>
+    <URL>http://www.repubblica.it</URL>
+    <descrizione>Versione on-line del quotidiano</descrizione>
+    <categoria>news</categoria>
+</sito>
+
+<sito IDSito="s002">
+    <nome>Google</nome>
+    <URL>http://www.google.it</URL>
+    <descrizione>Il più famoso motore di ricerca</descrizione>
+    <categoria>motori di ricerca</categoria>
+</sito>
+
+<sito IDSito="s003">
+    <nome>Wikipedia</nome>
+    <URL>http://www.wikipedia.org</URL>
+    <descrizione>Versione on-line del quotidiano</descrizione>
+    <categoria>news</categoria>
+</sito>
+
+<sito IDSito="s004">
+    <nome>Louvre</nome>
+    <URL>http://www.louvre.it</URL>
+    <descrizione>Sito del museo di Parigi</descrizione>
+    <categoria>musei</categoria>
+</sito>
+
+<sito IDSito="s005">
+    <nome>Curriculum di Nicoletta Alba</nome>
+    <URL>http://cv-nicoletta-alba.netsons.org/</URL>
+    <descrizione>Sito del mio curriculum</descrizione>
+    <categoria>curriculum</categoria>
+</sito>
+
+<sito IDSito="s006">
+    <nome>Portfolio di Nicoletta Alba</nome>
+    <URL>https://portfolio-na.netsons.org/</URL>
+    <descrizione>Sito del mio portfolio</descrizione>
+    <categoria>portfolio</categoria>
+</sito>
+</lista>
