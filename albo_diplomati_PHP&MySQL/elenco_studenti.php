@@ -4,7 +4,7 @@ require_once 'head.php';
 <h2 align='center'>Elenco studenti</h2>
 <div align="center">
 	<form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>"> <!--Il nome file dello script attualmente in esecuzione-->
-		Cerca studente per anno: <input type="text" name="anno" placeholder="Anno">
+		Cerca studente per città: <input type="text" name="citta" placeholder="Città">
 		<input type="submit" name="submit" value="Cerca">
 	</form>
 </div>
@@ -22,14 +22,14 @@ require_once 'head.php';
 	</tr>
 	<?php
 	if (isset($_POST['submit'])) {
-		$anno = $_POST['anno'];
+		$anno = $_POST['citta'];
 	} else {
 		$anno = "";
 	}
 
 	$conn = getdb();
 
-	$sqlUtenti = "SELECT Diplomati.ID, Diplomati.Cognome,
+	$sqlUtenti = "SELECT Diplomati.ID, Diplomati.Cognome,<!-- TODO vedere se funziona la query-->
     Diplomati.Nome, Diplomati.Residenza, Diplomati.Anno_diploma,
     Diplomati.Corso, Diplomati.Voto FROM utenti INNER JOIN citta
     WHERE (citta.idCitta = Diplomati.citta) AND

@@ -14,7 +14,7 @@
 	?>
 	<!-- Start Nav Menu -->
 	<nav align="center">
-		<a href="index.php">DASHBOARD</a> |
+		<a href="index.html">DASHBOARD</a> |
 		<a href="elenco_studenti.php">ELENCO STUDENTI</a> |
 		<a href="cerca_studenti.php">CERCA STUDENTI PER CITTA'</a> |
 		<a href="carica_studente.php">CARICA STUDENTE</a>
